@@ -24,6 +24,7 @@
 }
 .hide-desc {
   height: 0;
+  overflow: hidden;
   width: 379px;
   transition: height, .5s ease-in; 
   opacity: 0;
