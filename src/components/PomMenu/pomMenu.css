@@ -1,0 +1,19 @@
+.pom-menu {
+  position: absolute;
+  color: darkgray;
+  background-color: white;
+  min-width: 172px;
+  min-height: 75px;
+  border-radius: 5px !important;
+  box-shadow: 0 0 3px 1px darkgrey;
+  top: 26px;
+  right: 0;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.pom-menu div {
+  width: 100%;
+  margin: 1rem;
+  background-color: transparent;
+}

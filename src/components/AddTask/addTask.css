@@ -1,0 +1,40 @@
+.add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 4rem 2rem 2rem 2rem;
+}
+
+.add-task-always {
+  display: flex;
+  justify-content: center;
+}
+
+.add-task .input {
+  font-size: 18px;
+  padding: .5rem;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  min-width: 300px;
+}
+
+.add-task button {
+  font-size: 18px;
+  background-color: #cc6c6c;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 2rem;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+
+.add-task .desc {
+  margin-top: 2rem;
+}
+.add-task .desc-title {
+  color: #A84040;
+  font-size: 18px;
+  margin-left: .25rem;
+}

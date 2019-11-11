@@ -1,0 +1,19 @@
+.pom-options {
+  position: relative;
+  display: flex;
+  background-color: rgba(204, 108, 108, 0.5);
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.pom-options div {
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  margin: 0 .1rem;
+  border-radius: 50%;
+}
+
+.default-pom .pom-options {
+  background-color: transparent;
+}

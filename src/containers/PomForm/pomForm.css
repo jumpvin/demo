@@ -1,0 +1,75 @@
+.pom-form {
+  position: fixed;
+  background-color: #A84040;
+  min-width: 400px;
+  padding: 1rem;
+  box-shadow: 0px 0px 6px 1px black;
+  top: 75px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-flow: column;
+}
+
+.close-pom-form {
+  background-color: rgba(204, 108, 108, 0.5);
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color .25s ease-in;
+}
+
+.pom-form input {
+  font-size: 18px;
+  padding: .5rem;
+  border-radius: 5px;
+  outline: none;
+  margin-top: .25rem;
+  margin-bottom: 1.5rem;
+}
+.half input {
+  max-width: 100px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-flow: column;
+  margin: 0rem 2rem;
+}
+
+.half {
+  display: flex;
+  justify-content: center;
+}
+
+.pom-form button {
+  align-self: center;
+  color: white;
+  background-color: rgba(204, 108, 108, 1);
+  border: none;
+  font-size: 20px;
+  padding: .75rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color .25s ease-in;
+  outline: none;
+}
+
+.close-pom-form:hover {
+  transition: background-color .25s ease-in;
+  cursor: pointer;
+  background-color: rgba(204, 108, 108, 1);
+}
+
+.pom-form button:hover {
+  cursor: pointer;
+  background-color: rgba(204, 108, 108, 0.5);
+  transition: background-color .25s ease-in;
+}

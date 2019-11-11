@@ -1,0 +1,33 @@
+.desc-text {
+  padding: 1rem;
+  font-size: 18px;
+  font-family: Arial;
+  margin: 0px;
+  width: 345px;
+  height: 67px;
+  outline: none;
+  border-radius: 5px;
+  border-bottom-color: rgb(238, 238, 238);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: inset;
+  border-bottom-width: 2px;
+  align-self: center;
+  margin-top: .25rem;
+}
+
+.desc {
+  height: 133px;
+  transition: height, .5s ease-in; 
+  opacity: 1;
+  align-self: center;
+}
+.hide-desc {
+  height: 0;
+  width: 379px;
+  transition: height, .5s ease-in; 
+  opacity: 0;
+  align-self: center;
+  position: relative;
+  z-index: -1;
+};

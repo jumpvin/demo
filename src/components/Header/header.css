@@ -1,0 +1,52 @@
+header {
+  position: relative;
+  background-color: #cc6c6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+}
+
+.side-bar-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toggle-menu {
+  background-color: #cc6c6c;
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform .25s ease-in;
+}
+
+.closed-menu {
+  transition: left .5s ease-in;
+  left: 10px;
+}
+
+.opened-menu {
+  transition: left .5s ease-in;
+  left: 360px;
+}
+
+.menu-line {
+  width: 95%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+header h2 {
+  color: white;
+}
+
+.toggle-menu:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

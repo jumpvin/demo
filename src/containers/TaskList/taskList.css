@@ -1,0 +1,34 @@
+.task-list {
+  max-width: 600px;
+  margin: auto;
+}
+
+.toggle-tasks {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.toggle-tasks div {
+  margin: 1rem 2rem;
+  padding: .1rem .5rem;
+  color: #A84040;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: solid;
+}
+.toggle-tasks .selected {
+  color: #cc6c6c;
+}
+
+.add-task button:hover {
+  cursor: pointer;
+  opacity: .75;
+}
+
+.toggle-tasks div:hover {
+  cursor: pointer;
+  opacity: .75;
+}

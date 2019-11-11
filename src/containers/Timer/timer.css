@@ -1,0 +1,59 @@
+.hide-window {
+  display: none !important;
+}
+.timer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.display-default-pom {
+  font-size: 20px;
+  color: #A84040;
+  margin-top: 4rem;
+}
+
+.timer-display {
+  font-size: 100px;
+  color: #A84040;
+  font-weight: bold;
+  letter-spacing: .25rem;
+  padding: 2rem;
+  background-color: rgba(18, 78, 78, .25);
+  border-radius: 5px;
+}
+
+.rounds {
+  display: flex;
+  margin: 1rem;
+}
+
+.button {
+  color: white;
+  padding: .75rem 3rem;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 3rem 2rem;
+  border-radius: 5px;
+
+}
+
+.timer .red {
+  background: #cc6c6c;
+  box-shadow: 1px 1px 2px #A84040;
+}
+
+.timer .blue {
+  background: #417a7a;
+  box-shadow: 1px 1px 2px #124e4e;
+}
+
+.timer .button:hover {
+  cursor: pointer;
+  opacity: .75;
+}
+
+.test {
+  margin: .5rem;
+}
