@@ -32,7 +32,7 @@ const startTimer = (currentTime, sprint, round, e) => {
   const newTimeId = setTimeout( () => {
     const updatedTime = updateTime(currentTime, sprint, round);
       startTimer(updatedTime.currentTime, updatedTime.sprint, updatedTime.round);
-  }, 100);
+  }, 1000);
   setTimeId(newTimeId);
   if(!pomodoro.auto && currentTime === numToMin(pomodoro[sprint]) && !(e && e.target)) {
     endTimer(newTimeId);

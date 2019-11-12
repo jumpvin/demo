@@ -1,8 +1,8 @@
 .pom-form {
   position: fixed;
   background-color: #A84040;
-  min-width: 400px;
-  padding: 1rem;
+  min-width: 350px;
+  padding: 1rem .25rem;
   box-shadow: 0px 0px 6px 1px black;
   top: 75px;
   left: 50%;
@@ -24,6 +24,11 @@
   border-radius: 50%;
   font-weight: bold;
   transition: background-color .25s ease-in;
+  margin-right: 1rem;
+}
+
+.name-label {
+  margin-left: 2rem;
 }
 
 .pom-form input {
@@ -33,6 +38,7 @@
   outline: none;
   margin-top: .25rem;
   margin-bottom: 1.5rem;
+  align-self: center;
 }
 .half input {
   max-width: 100px;
@@ -41,7 +47,7 @@
 .form-inputs {
   display: flex;
   flex-flow: column;
-  margin: 0rem 2rem;
+  margin: 0rem .5rem;
 }
 
 .half {

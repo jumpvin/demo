@@ -12,6 +12,8 @@
   color: white;
   border-radius: 5px;
   font-weight: bold;
+  align-items: center;
+  text-align: center;
 }
 
 .default-sprint {

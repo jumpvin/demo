@@ -10,7 +10,7 @@
 .display-default-pom {
   font-size: 20px;
   color: #A84040;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .timer-display {
@@ -31,10 +31,10 @@
 .button {
   color: white;
   padding: .75rem 3rem;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
-  margin: 3rem 2rem;
+  margin: 1rem 2rem;
   border-radius: 5px;
 
 }

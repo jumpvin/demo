@@ -32,7 +32,7 @@ header {
 
 .opened-menu {
   transition: left .5s ease-in;
-  left: 360px;
+  left: 310px;
 }
 
 .menu-line {

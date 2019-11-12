@@ -58,7 +58,7 @@ const PomForm = () => {
   return (
     <div className='pom-form'>
       <div className = 'close-pom-form' onClick = { () => dispatch(displayForm(formState, false)) }> X </div>
-      <label>Pomodoro Name</label>
+      <label className = 'name-label' >Pomodoro Name</label>
       <input 
         type = 'text' 
         value = { formData.name } 
