@@ -1,10 +1,11 @@
 .desc-text {
+  box-sizing: border-box;
   padding: 1rem;
   font-size: 18px;
   font-family: Arial;
   margin: 0px;
-  width: 345px;
-  height: 67px;
+  width: 300px;
+  height: 80px;
   outline: none;
   border-radius: 5px;
   border-bottom-color: rgb(238, 238, 238);
@@ -21,15 +22,15 @@
   transition: height, .5s ease-in; 
   opacity: 1;
   align-self: center;
+  width: 300px;
 }
 .hide-desc {
   height: 0;
   overflow: hidden;
   opacity: 0;
-  width: 379px;
-  transition: height, .5s ease-in; 
+  width: 300px;
   opacity: 0;
-  align-self: center;
   position: relative;
   z-index: -1;
+  transition: height, .5s ease-in; 
 };
