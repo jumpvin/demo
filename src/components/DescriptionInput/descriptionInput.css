@@ -25,7 +25,7 @@
   width: 300px;
 }
 .hide-desc {
-  height: 0;
+  height: 0px;
   overflow: hidden;
   opacity: 0;
   width: 300px;
@@ -33,4 +33,5 @@
   position: relative;
   z-index: -1;
   transition: height, .5s ease-in; 
+  align-self: center;
 };

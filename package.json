@@ -13,8 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
+    "build-cra": "react-scripts build",
+    "build": "webpack",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

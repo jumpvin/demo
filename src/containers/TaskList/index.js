@@ -57,7 +57,7 @@ const chooseTask = (complete) => {
 };
 console.log(tasks)
   return (
-    <div className = 'task-list'>
+    <div className = 'task-list-class'>
       < AddTask
        title = { title } 
        description = { description }

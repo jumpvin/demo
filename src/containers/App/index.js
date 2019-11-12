@@ -4,6 +4,7 @@ import { displayPomList } from '../../ducks/displayPomList';
 import { displayWindow } from '../../ducks/displayWindow';
 import { triggerDefaultPom } from '../../ducks/getDefaultPom';
 import './App.css';
+import '../TaskList/taskList.css';
 
 import Header from '../../components/Header';
 import TaskList from '../TaskList';

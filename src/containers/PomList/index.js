@@ -24,10 +24,6 @@ const PomList = () => {
     })
   );
 
-  useEffect( () => {
-    //dispatch(getPomsSuccess())
-  }, [])
-
   const handleSelect = (id) => {
     dispatch(defaultPomSuccess(id));
     dispatch(displayPomList(displaySideBar));
@@ -36,7 +32,7 @@ const PomList = () => {
   const handleRemove = async (id) => {
     dispatch(getPomsSuccess(updateArray(id, pomodoros)))
   }; 
-console.log(pomodoros);
+
   return (
     <div className={ displaySideBar ? `pom-list opened`: `pom-list closed` }>
       <div className='side-bar-header'>
