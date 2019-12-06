@@ -24,18 +24,18 @@ const AddTask = ({
     />
     <button onClick = {handleClick} > Add </button>
   </div>
-  <div className = {showDesc ? 'desc' : 'hide-desc'}>
-    <div className = 'desc-title' > Description: </div>
+  {/* <div className = {showDesc ? 'desc' : 'hide-desc'}>
+    <div className = 'desc-title' > Description: </div> */}
 
-  <DescriptionInput 
+  {/* <DescriptionInput 
     description = { description } 
     showDesc = { showDesc } 
     handleDescChange = { handleDescChange } 
     onKeyPress = { handleKeyPress }
     handleOnFocus = { handleOnFocus }
     handleDesc = { handleDesc }
-  />
-  </div>
+  /> */}
+  {/* </div> */}
 </div>
 );
 
