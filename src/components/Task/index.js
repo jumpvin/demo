@@ -4,16 +4,11 @@ import { updateArray, getFromArray } from '../../api/helpers';
 import { getPomTasksSuccess } from '../../ducks/getPomTasks';
 import { useState } from 'react';
 import './task.css'
-import DescriptionInput from '../DescriptionInput';
 
-const Task = ({ task, showTask, handleDesc }) => {
+const Task = ({ task, showTask }) => {
   const dispatch = useDispatch();
   const tasks = useSelector( state => state.getPomTasks.tasks);
   const [ showDesc, setShowDesc ] = useState(false);
-
-  const handleDisplayDesc = () => {
-    setShowDesc(showDesc ? false : true );
-  };
 
   const handleCheck = async (event, id) => {
     const changedTask = { ...getFromArray(id, tasks), complete: event.target.checked }

@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { updateClock, numToMin, getFromArray } from '../../api/helpers';
 import './timer.css';
 import Sprints from '../../components/Sprints';
 import Round from '../../components/Round';
 
 const Timer = () => {
-  const dispatch = useDispatch();
   const id = useSelector( state => state.defaultPom.defaultPom);
   const pomodoros = useSelector ( state => state.allPoms.pomodoros)
   const showClass = useSelector( state => state.toggleWindow.display);

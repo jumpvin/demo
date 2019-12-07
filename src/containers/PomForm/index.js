@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { displayForm } from '../../ducks/displayForm'
-import { addPom, updatePom, getDefaultPom } from '../../api/api';
 import { getPomsSuccess } from '../../ducks/getPoms';
 import { updateArray } from '../../api/helpers';
 import './pomForm.css';
@@ -19,7 +18,7 @@ const PomForm = () => {
     );
 
   const dispatch = useDispatch();
-  const { formState, update, pomodoros, defaultPom } = 
+  const { formState, update, pomodoros } = 
     useSelector( (state) => ({
       formState: state.toggleForm.display,
       update: state.toggleForm.update,
@@ -45,8 +44,8 @@ const PomForm = () => {
 
   const handleSubmit = async (id) => {
     const newId = pomodoros.length+1;
-    const newData = { ...formData, _id: newId };
-    update ? handleAdd(formData, id) : handleAdd(newData);
+    const newData = { ...formData, _id: id? id : newId };
+    update ? handleAdd(newData, id) : handleAdd(newData);
     dispatch(displayForm(formState, false))
   };
 

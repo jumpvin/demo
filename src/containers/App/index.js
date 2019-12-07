@@ -19,11 +19,7 @@ const App = () => {
       defaultPom: state.defaultPom.defaultPom,
     })
   );
- 
-  useEffect( () => {
-    //dispatch(triggerDefaultPom());
-  }, []);
-
+  
   const handleWindow = (view) => {
   dispatch(displayWindow(view))
   };

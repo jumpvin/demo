@@ -7,6 +7,7 @@ import './pomOptions.css';
 import PomMenu from '../PomMenu';
 
 const PomOptions = ({ pomodoro }) => {
+
   const dispatch = useDispatch();
   const [ menu, setMenu ] = useState(false);
   const { formState, pomodoros } = 
@@ -15,6 +16,7 @@ const PomOptions = ({ pomodoro }) => {
       pomodoros: state.allPoms.pomodoros,
     })
   );
+ 
   const handleRemove = async () => {
     dispatch(getPomsSuccess(updateArray(pomodoro._id, pomodoros)))
   }; 

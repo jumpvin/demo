@@ -1,16 +1,12 @@
 import React from 'react';
 import './addTask.css'
-import DescriptionInput from '../DescriptionInput';
 
 const AddTask = ({ 
-  title, description, 
+  title, 
   handleChange, 
   handleKeyPress, 
   handleDesc, 
   handleClick, 
-  showDesc, 
-  handleDescChange,
-  handleOnFocus, 
 }) => (
   <div className = 'add-task' >
   <div className = 'add-task-always'>
