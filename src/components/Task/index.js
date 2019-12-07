@@ -38,14 +38,9 @@ const Task = ({ task, showTask, handleDesc }) => {
           </div>
         </div>
         <div className = 'task-options'>
-          {/* <div className = 'task-remove' onClick = { () => handleDisplayDesc(task._id) } > ^ </div> */}
           <div className = 'task-remove' onClick = { () => handleRemove(task._id) } > - </div>
         </div>
       </div>
-      {/* <div className = {showDesc ? 'desc' : 'hide-desc'} >
-        <DescriptionInput description = { task.description } showDesc = { true } handleDesc = { handleDesc } />
-      </div> */}
-      
   </div>
 )};
 

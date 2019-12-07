@@ -14,11 +14,15 @@
 }
 
 .timer-display {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  max-width: 400px;
   font-size: 100px;
   color: #A84040;
   font-weight: bold;
   letter-spacing: .25rem;
-  padding: 2rem;
+  padding: 2rem 0;
   background-color: rgba(18, 78, 78, .25);
   border-radius: 5px;
 }

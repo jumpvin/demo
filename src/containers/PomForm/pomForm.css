@@ -1,7 +1,8 @@
 .pom-form {
   position: fixed;
   background-color: #A84040;
-  min-width: 350px;
+  width: 95%;
+  max-width: 500px;
   padding: 1rem .25rem;
   box-shadow: 0px 0px 6px 1px black;
   top: 75px;
@@ -52,7 +53,7 @@
 
 .half {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .pom-form button {
