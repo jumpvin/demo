@@ -55,7 +55,7 @@ const chooseTask = (complete) => {
   if(showTask === 'complete' && !complete) return 'hide-task'; 
   return '';
 };
-console.log(tasks)
+
   return (
     <div className = 'task-list'>
       < AddTask
