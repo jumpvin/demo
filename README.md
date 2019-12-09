@@ -8,9 +8,9 @@ Doropomo is a timer based off of the Pomodoro Technique. It also has tasks capab
 
 ## Screenshots
 
-<!-- <p align="left">
-  <img src="images/doropomo-mock.png =50x" />
-</p> -->
+<p align="center">
+  <img src="images/doropomo-mock.png" width='200'/>
+</p>
 
 
 ## Getting started
