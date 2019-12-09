@@ -5,6 +5,8 @@
 
 
 Doropomo is a timer based off of the Pomodoro Technique. It also has tasks capabilities.
+* To read an explanation of the Pomodoro Technique go to https://doropomo.com.
+* To view a demo of the Doropomo application go to https://demo.doropomo.com.
 
 ## Screenshots
 
